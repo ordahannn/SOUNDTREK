@@ -1,0 +1,22 @@
+export const languageMap = {
+  English: ["en", "en-US"],
+  Hebrew: ["he"],
+  Arabic: ["ar"],
+  Chinese: ["zh", "zh-CN"],
+  Dutch: ["nl"],
+  French: ["fr"],
+  German: ["de"],
+  Hindi: ["hi"],
+  Italian: ["it"],
+  Japanese: ["ja"],
+  Korean: ["ko"],
+  Persian: ["fa"],
+  Polish: ["pl"],
+  Portuguese: ["pt", "pt-PT", "pt-BR"],
+  Russian: ["ru"],
+  Spanish: ["es"],
+  Swedish: ["sv"],
+  Thai: ["th"],
+  Turkish: ["tr"],
+  Ukrainian: ["uk"]
+};

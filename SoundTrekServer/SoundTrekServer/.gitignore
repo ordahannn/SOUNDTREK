@@ -1,0 +1,48 @@
+# Secret configuration files (DO NOT TRACK!)
+secrets.json
+appsettings.json
+appsettings.*.json
+
+# Legacy config files (Ignore old .NET config files)
+*.config
+
+# Build output directories
+bin/
+obj/
+artifacts/
+TestResults/
+
+# User-specific IDE files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.csproj.user
+
+# Log files
+*.log
+
+# NuGet packages
+*.nupkg
+*.snupkg
+packages/
+
+# Visual Studio working folder
+.vs/
+
+# Local database files
+## EF or SQL Server model file (Database model file)
+*.dbmdl
+## Debug symbols
+*.pdb
+*.sqlite
+## SQL Server database file
+*.mdf
+## SQL Server log file
+*.ldf
+## TTS service keys
+.env
+
+# macOS
+.DS_Store
+*.pem

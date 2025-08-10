@@ -1,0 +1,83 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# dependencies (Installed libraries and packages)
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# local env files
+.env*.local
+
+# typescript
+*.tsbuildinfo
+
+
+
+app-example
+
+
+# ─────────────────────────────── added ───────────────────────────────
+# Expo-related folders (Shared config data for Expo SDKs)
+.expo-shared/
+
+# Environment variables / secrets
+## General environment config
+.env
+## Additional environment variants (e.g., .env.production)
+.env.*
+
+# Log files and debug info
+## General logs
+*.log
+## npm-specific debug logs
+npm-debug.log*
+## yarn-specific error logs
+yarn-error.log*
+
+# Build artifacts (web/native) - Local build output (common)
+build/
+
+# iOS project files (Xcode-generated)
+ios/Pods/
+ios/build/
+ios/DerivedData/
+
+# Android project files (Android Studio-generated)
+## Gradle cache
+android/.gradle/
+## APK build output
+android/app/build/
+## Local-only SDK path, should not be tracked (machine-specific)
+android/local.properties
+
+# Android signing keys (DO NOT TRACK!)
+## Java KeyStore files
+*.jks
+## Android app signing keys
+*.keystore
+
+screens/itinerary/config.ts
