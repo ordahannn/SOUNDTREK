@@ -150,7 +150,7 @@ More changes might be made in the future.
 
 ---
 
-## Authors
+## Contributers
 
 - **Or Dahan**  
 - **Roni Ronen**  
