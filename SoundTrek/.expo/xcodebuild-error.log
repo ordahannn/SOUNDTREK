@@ -1,0 +1,6 @@
+2025-07-24 11:11:50.192 xcodebuild[20391:313541] Writing error result bundle to /var/folders/ft/pvwmx2h975j_8zgm0dpvzypm0000gn/T/ResultBundle_2025-24-07_11-11-0050.xcresult
+xcodebuild: error: Unable to find a destination matching the provided destination specifier:
+		{ id:28A77B89-FD21-44A5-8F15-BBFBC02D777B }
+
+	Ineligible destinations for the "SoundTrek" scheme:
+		{ platform:iOS, id:dvtdevice-DVTiPhonePlaceholder-iphoneos:placeholder, name:Any iOS Device, error:iOS 18.5 is not installed. To use with Xcode, first download and install the platform }

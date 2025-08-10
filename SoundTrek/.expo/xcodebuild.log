@@ -1,0 +1,3 @@
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -workspace /Users/ordahan/Documents/GitHub/soundtrek/SoundTrek/ios/SoundTrek.xcworkspace -configuration Debug -scheme SoundTrek -destination id=28A77B89-FD21-44A5-8F15-BBFBC02D777B
+
