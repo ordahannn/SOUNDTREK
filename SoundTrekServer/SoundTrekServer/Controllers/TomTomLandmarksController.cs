@@ -18,7 +18,7 @@ namespace SoundTrekServer.Controllers
             // Load the TomTom API key from configuration (e.g., appsettings.json)
             //var apiKeyTomTom = config["TomTom:ApiKey"] ?? throw new Exception("TomTom API key is missing");
             //_tomtomService = new TomTomLandmarkService(apiKeyTomTom);
-            _tomtomService = new TomTomLandmarkService("KxDg0XYcsffShULQ9WaZHruT6IC5dByT");
+            _tomtomService = new TomTomLandmarkService("");
         }
 
         /// <summary>
